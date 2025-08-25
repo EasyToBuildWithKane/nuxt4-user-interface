@@ -1,50 +1,75 @@
-# 🚀 Nuxt 4 Production-Ready Starter
+# Nuxt Minimal Starter
 
-> **A modern, scalable, and enterprise-ready Nuxt 4 starter template**  
-> Designed for large-scale production systems with best practices in mind.
+Look at the [Nuxt documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
 
----
+## Setup
 
-## ✨ Features
-
-- **Nuxt 4.x** – Latest stable version with enhanced DX & performance
-- **TypeScript-first** – Fully typed for safer and cleaner codebase
-- **Auto Imports** – Components, composables, and utilities auto-imported
-- **State Management** – Pinia configured out of the box
-- **Styling** – Tailwind CSS v3 integrated
-- **SEO & Meta** – Nuxt SEO module & `useHead()` for meta tags
-- **Lint & Format** – ESLint + Prettier with strict rules
-- **Testing Ready** – Vitest + Testing Library pre-configured
-- **CI/CD Ready** – GitHub Actions workflow template included
-
----
-
-## 🛠 Tech Stack
-
-- [Nuxt 4](https://nuxt.com) (Vue 3 + Vite)
-- [Pinia](https://pinia.vuejs.org/)
-- [Tailwind CSS](https://tailwindcss.com/)
-- [TypeScript](https://www.typescriptlang.org/)
-- [ESLint](https://eslint.org/) & [Prettier](https://prettier.io/)
-- [Vitest](https://vitest.dev/) (Unit & Component Testing)
-
----
-
-## 📦 Installation
-
-Clone this repository and bootstrap your project:
+Make sure to install dependencies:
 
 ```bash
-# 1. Clone repository
-git clone https://github.com/EasyToBuildWithKane/nuxt4-user-interface.git ...
-cd ...
-
-# 2. Install dependencies
+# npm
 npm install
-# or
+
+# pnpm
 pnpm install
-# or
+
+# yarn
 yarn install
 
-# 3. Start development server
+# bun
+bun install
+```
+
+## Development Server
+
+Start the development server on `http://localhost:3000`:
+
+```bash
+# npm
 npm run dev
+
+# pnpm
+pnpm dev
+
+# yarn
+yarn dev
+
+# bun
+bun run dev
+```
+
+## Production
+
+Build the application for production:
+
+```bash
+# npm
+npm run build
+
+# pnpm
+pnpm build
+
+# yarn
+yarn build
+
+# bun
+bun run build
+```
+
+Locally preview production build:
+
+```bash
+# npm
+npm run preview
+
+# pnpm
+pnpm preview
+
+# yarn
+yarn preview
+
+# bun
+bun run preview
+```
+
+Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
